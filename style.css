@@ -1,0 +1,47 @@
+#menu {
+    width: fit-content;
+    margin: 20px 40px;
+    padding: 0;
+    list-style-type: none;
+}
+
+#menu a {
+    display: block;
+    padding: 30px 55px;
+    padding-left: 80px;
+    
+    background-color: #939292;
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: 12px 13px;
+
+    font-family: 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+#menu a:hover {
+    background-color: #525151;
+}
+
+#edit {
+    background-image: url('edit.png');
+}
+
+#favorites{
+    background-image: url('favorites.png');
+}
+
+#history{
+    background-image: url('history.png');
+}
+
+#security{
+    background-image: url('security.png');
+}
+
+#settings{
+    background-image: url('settings.png');
+}
